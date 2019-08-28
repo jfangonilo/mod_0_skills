@@ -1,0 +1,14 @@
+Beverage Class - Coffee
+
+Attributes:
+volumeCurrent: 3
+volumeMax: 8
+isEmpty: false
+tempCurrent: 204
+tempDesired 160
+
+Methods:
+refill: volumeCurrent = 8
+drink: volumeCurrent = 2, isEmpty = false
+spill: isEmpty = true, volumeCurrent = 0
+addIce: tempCurrent = 160
