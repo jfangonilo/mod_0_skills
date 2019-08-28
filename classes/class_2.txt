@@ -1,0 +1,16 @@
+Customer Class
+
+Attributes:
+isHungry (boolean)
+isThirsty (boolean)
+age (int)
+ofAge (boolean)
+drinksOrdered (int)
+entreesOrdered (int)
+paid (boolean)
+
+Methods:
+serveFood (if isHungry is true, set to false, add to entreesOrdered)
+serveBeverage (if isThirsty is true, set to false, add to drinksOrdered)
+serveAlcohol (if age >= 21, set ofAge to true)
+giveTab (if entreesOrdered >=1 and drinksOrdered >=1, set paid = true)
