@@ -11,5 +11,4 @@ Methods:
 refill (set isEmpty false, set volumeCurrent to volumeMax)
 drink (reduce volumeCurrent, if volumeCurrent=0, set isEmpty to true)
 spill (set isEmpty to true, set volumeCurrent to 0)
-chug (set volumeCurrent to 0, set isEmpty to true)
 addIce (if tempCurrent > tempDesired, set tempCurrent = tempDesired
