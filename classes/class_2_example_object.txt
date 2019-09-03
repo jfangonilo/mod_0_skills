@@ -3,14 +3,13 @@ Customer Class - Jomah
 Attributes:
 isHungry: true
 isThirsty: false
-age: 30
-ofAge: true
+wantsDessert: false
 drinksOrdered: 0
 entreesOrdered: 1
 paid: false
 
 Methods:
-serveFood: isHungry = false, entreesOrdered = 2
-serveBeverage: isThirsty = false, drinksOrdered = 1
-serveAlcohol: ofAge = true
-giveTab: paid = false (true after running serveBeverage at least once)
+orderFood: isHungry = false, entreesOrdered = 2
+orderBeverage: isThirsty = false, drinksOrdered = 1
+orderDessert: wantsDessert = true
+payTab: paid = false (true after running orderBeverage at least once)
