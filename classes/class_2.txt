@@ -3,13 +3,13 @@ Customer Class
 Attributes:
 isHungry (boolean)
 isThirsty (boolean)
+wantsDessert (boolean)
 drinksOrdered (int)
 entreesOrdered (int)
 paid (boolean)
-needsRestroom (boolean)
 
 Methods:
 orderFood (if isHungry is true, set to false, add to entreesOrdered)
 orderBeverage (if isThirsty is true, set to false, add to drinksOrdered)
+orderDessert (if entreesOrdered >=1, set wantsDessert = true)
 payTab (if entreesOrdered >=1 and drinksOrdered >=1, set paid = true, else false)
-useRestroom (if drinksOrdered >=2 or entreesOrdered >=1, set needsRestroom = true, else false)
